@@ -1,0 +1,93 @@
+/* External styling */
+.body{
+    text-align: center;
+    background-color: lavender;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: navy;
+}
+h2{
+    text-align: center;
+    color: rgb(103, 20, 180);
+}
+.table1, .table2{
+    margin-left: auto;
+    margin-right: auto;
+}
+th, td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td{
+    text-align: center;
+}
+.table1 {
+    margin-top: -20px;
+    border-radius: 12px;
+    background-color: lightgrey;
+    border-spacing: 20px;
+}
+.table2{
+    background-color: lightcyan; 
+    border-collapse: collapse;
+}
+.checkbox:hover{
+    cursor: pointer;
+    transition: transform .2s;
+    transform: scale(1.5);
+}
+.button-add, .button-delete{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.button-add{
+    background-color: rgb(119, 199, 122);
+    border-color: rgb(119, 199, 122);
+    color: black;
+    font-size: larger;
+    border-radius: 10px;
+    box-shadow: 0 3px #666;
+    cursor: pointer;
+    transform: translateY(4px);
+    transition-duration: 0.4s;
+}
+.button-add:hover{
+    transition: transform .2s;
+    transform: scale(0.9);
+    background-color: green;
+}
+.button-delete{
+    background-color: rgb(234, 100, 100);
+    border-color: rgb(234, 100, 100);
+    color: black;
+    font-size: larger;
+    border-radius: 10px;
+    box-shadow: 0 3px #666;
+    cursor: pointer;
+    transform: translateY(4px);
+    transition-duration: 0.4s;
+}
+.button-delete:hover{
+    transition: transform .2s;
+    transform: scale(0.9);
+    background-color: red;
+}
+.color1{
+    color: white;
+    background-color: crimson;
+    border-color: navy;
+}
+.color2{
+    background-color: lightblue;
+    border-color: crimson;
+}
